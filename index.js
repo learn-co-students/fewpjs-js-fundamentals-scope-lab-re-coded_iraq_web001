@@ -1,6 +1,7 @@
-animal = ""
+var animal = ""
 
 function myAnimal() {
+  animal = 'cat'
   return animal
 }
 
@@ -12,8 +13,10 @@ function yourAnimal() {
 }
 
 function add2(n) {
+  two = 2
   return n + two
 
   // Feel free to move things around!
-  two = 2
+  
+  return two
 }
