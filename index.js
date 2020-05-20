@@ -1,19 +1,22 @@
-animal = ""
+let animal = ""
 
 function myAnimal() {
-  return animal
+  const mine ='dog'
+  return mine
 }
 
 function yourAnimal() {
+  const yours='cat'
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  return yours
 }
 
 function add2(n) {
-  return n + two
 
   // Feel free to move things around!
-  two = 2
+ const two = 2
+    return n + two
+
 }
